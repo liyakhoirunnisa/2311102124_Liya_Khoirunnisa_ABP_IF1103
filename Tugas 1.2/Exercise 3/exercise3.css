@@ -1,0 +1,79 @@
+/* Liya Koirunnisa - 2311102124 - IF1103 */
+
+/* Kontainer */
+.layout-container {
+    width: 600px;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #fff;
+}
+
+/* Kotak putih */
+.box {
+    border: 1px solid #000;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Kotak abu-abu */
+.grey-box {
+    background-color: gray;
+    border: 1px solid #000;
+}
+
+/* Kiri */
+.left-column {
+    width: 100px;
+}
+
+.logo-box {
+    height: 100px;
+}
+
+.nav-box {
+    height: 350px;
+    margin-top: 100px;
+}
+
+/* Kanan */
+.top-banner {
+    height: 100px;
+}
+
+.middle-lines {
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nested-area {
+    height: 350px;
+}
+
+.inner-square {
+    width: 130px;
+    height: 130px;
+}
+
+/* Kotak bergaris */
+.lined-box {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.lined-box .line {
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.lined-box .line:last-child {
+    border-bottom: none;
+}
+
+/* Garis bawah tebal */
+.thick-bottom-line {
+    border-bottom: 5px solid #000;
+    margin-top: 25px;
+}

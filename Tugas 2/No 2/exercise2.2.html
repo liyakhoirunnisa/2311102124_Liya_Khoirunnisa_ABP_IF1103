@@ -1,0 +1,80 @@
+<!-- Liya Koirunnisa - 2311102124 - IF1103 -->
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" /> <!-- Encoding karakter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsive -->
+    <title>Tugas 2 - Layout dan Interaksi</title> <!-- Judul halaman -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- File CSS eksternal -->
+    <link rel="stylesheet" href="exercise2.2.css" />
+  </head>
+
+  <body>
+
+    <!-- Tombol interaktif -->
+    <div class="text-center mt-4">
+        <button class="btn btn-primary mx-2" onclick="toggleAlignment()">Ubah Alignment Teks</button> <!-- Ubah posisi teks -->
+        <button class="btn btn-success mx-2" onclick="toggleColor()">Ubah Warna Background</button> <!-- Ubah warna background -->
+    </div>
+
+    <!-- Container layout -->
+    <div class="layout-container">
+      <div class="d-flex" style="gap: 20px;"> <!-- Layout flex -->
+
+        <!-- Kolom kiri -->
+        <div class="left-column d-flex flex-column">
+          <div id="text-logo" class="box logo-box d-flex align-items-center justify-content-center">
+            Logo <!-- Box logo -->
+          </div>
+          <div id="text-nav" class="box nav-box d-flex align-items-center justify-content-center">
+            Navigasi <!-- Box navigasi -->
+          </div>
+        </div>
+
+        <!-- Kolom kanan -->
+        <div class="right-column d-flex flex-column flex-grow-1">
+
+          <div class="grey-box top-banner"></div> <!-- Banner atas -->
+
+          <!-- Garis konten -->
+          <div class="lined-box middle-lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+
+          <!-- Area konten bawah -->
+          <div class="d-flex nested-area" style="gap: 20px;">
+            <div class="lined-box tall-lines flex-grow-1"> <!-- Area garis panjang -->
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+
+            <div id="target-box" class="grey-box inner-square"></div> <!-- Kotak kanan -->
+          </div>
+
+          <div class="thick-bottom-line"></div> <!-- Garis bawah -->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- File JavaScript -->
+    <script src="exercise2.2.js"></script>
+  </body>
+</html>

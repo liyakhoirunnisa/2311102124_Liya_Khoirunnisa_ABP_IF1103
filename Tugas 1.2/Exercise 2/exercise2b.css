@@ -1,0 +1,55 @@
+/* Liya Koirunnisa - 2311102124 - IF1103 */
+
+/* Kontainer */
+.layout-container {
+  max-width: 450px;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 40px auto;
+  background-color: #fff;
+}
+
+/* Navigasi */
+.box-nav {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 6px 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* Divider */
+.thick-divider {
+  height: 4px;
+  background-color: #000;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+/* Konten utama */
+.main-content-area {
+  height: 350px;
+}
+
+/* Sidebar persegi panjang */
+.sidebar-rect {
+  background-color: gray;
+  border: 1px solid #000;
+  height: 18px;
+  width: 80%;
+}
+
+/* Konten kanan */
+.box-content {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Baris konten */
+.box-content .content-row {
+  flex: 1; 
+  border-bottom: 1px solid #000;
+}
